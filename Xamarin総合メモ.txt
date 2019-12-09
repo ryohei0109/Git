@@ -1,0 +1,9 @@
+【初期設定】
+
+●HAXMのインストール
+1. VisualStudio ツール -> Android -> Android SDK Mangerをクリック
+2. ツールタブ -> 追加 -> Inter x86 Emulator Accelerator (HAXM installer)にチェックを入れ、
+    画面右下の「変更の適用」をクリック
+3. C:\Program Files (x86)\Android\android-sdk\extras\intel\Hardware_Accelerated_Execution_Manager\intelhaxm-android.exeを実行
+
+
