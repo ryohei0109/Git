@@ -1,0 +1,89 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <TextView
+        android:text="00:00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/RemainingTimeTextView"
+        android:textSize="80dp"
+        android:gravity="center"
+        android:background="#ffffff00"
+        android:textColor="#ff000000"
+        android:padding="8dp"
+        android:layout_marginRight="0.0dp" />
+    <Button
+        android:text="スタート"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartButton"
+        android:layout_below="@+id/RemainingTimeTextView"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:textSize="32dp"
+        android:layout_margin="16dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="46.5dp"
+        android:id="@+id/linearLayout1"
+        android:layout_below="@+id/StartButton">
+        <Button
+            android:text="+10分"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Add10MinButton"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:layout_weight="1" />
+        <Button
+            android:text="+1分"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Add1MinButton"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:layout_weight="1" />
+        <Button
+            android:text="+10秒"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Add10SecButton"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:layout_weight="1" />
+        <Button
+            android:text="+1秒"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Add1SecButton"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="52.5dp"
+        android:id="@+id/relativeLayout1"
+        android:layout_below="@+id/linearLayout1" >
+        <Button
+            android:text="クリア"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ClearButton"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

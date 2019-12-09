@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitchenTimeIos", "KitchenTimeIos\KitchenTimeIos.csproj", "{18840B2C-B247-446F-9530-66CFECD6D91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Release|iPhone.Build.0 = Release|iPhone
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Release|iPhone.Deploy.0 = Release|iPhone
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{18840B2C-B247-446F-9530-66CFECD6D91A}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01D4323E-9F1F-45A4-998E-B4679E9620F1}
+	EndGlobalSection
+EndGlobal
